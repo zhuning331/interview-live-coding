@@ -1,0 +1,34 @@
+面試問題：
+1. 從你過去的專案經驗中，講一個遇到最困難的問題，描述怎麼解決的，技術和人際各講一個
+2. SCSS跟CSS比有什麼好處?
+3. 三大框架最愛哪個? 解釋原因
+4. 跨裝置與跨瀏覽器相容技術 提一個遇過最困難的案例 解釋一下如何解決
+console.log(1);
+
+setTimeout(() => {
+  console.log(2);
+});
+
+new Promise(resolve => {
+  console.log(3);
+  resolve();
+}).then(() => {
+  console.log(4);
+  new Promise(resolve => { resolve();})
+  .then(() => {
+    console.log(5);
+  });
+});
+
+setTimeout(() => {
+  console.log(6);
+});
+
+console.log(7);
+3. 實作add(2)(3)函式
+4. vue 解釋ref和reactive差異
+5. react 如何將父元件資料傳遞給子元件 redux如何流動
+6. 解釋何謂CSS box-model
+7. JS物件深拷貝
+8. 有碰過TypeScript嗎?
+9. 最近有在追什麼新技術？
